@@ -25,10 +25,10 @@ function reset() {
     console.log("Target: " + target)
     $("#target-number").text(target);
     // reset crystals
-    var numA = Math.floor(Math.random()*11+1);
-    var numB = Math.floor(Math.random()*11+1);
-    var numC = Math.floor(Math.random()*11+1);
-    var numD = Math.floor(Math.random()*11+1);
+    numA = Math.floor(Math.random()*11+1);
+    numB = Math.floor(Math.random()*11+1);
+    numC = Math.floor(Math.random()*11+1);
+    numD = Math.floor(Math.random()*11+1);
     console.log("A:" + numA + " B:" + numB +" C:" + numC + " D:" + numD);
     // reset total
     total = 0;
